@@ -34,7 +34,7 @@ import purchasePaymentRoutes from "./routes/purchasePaymentRoutes";
 import inventoryRoutes from "./routes/inventoryRoutes";
 
 const app = express();
-const port = parseInt(process.env.PORT || "3000", 10);
+const port = parseInt(process.env.PORT || "8080", 10);
 
 // Error handling middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
@@ -48,7 +48,12 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 
 // CORS configuration
 app.use(cors({
-  origin: ["http://localhost:5173", "https://frontendaccounting.vercel.app"],
+  origin: [
+    "http://localhost:5173", 
+    "https://frontendaccounting.vercel.app",
+    "https://accounting-react-node-production.up.railway.app",
+    "https://accounting-react-node-production.railway.app"
+  ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
@@ -99,7 +104,9 @@ AppDataSource.initialize()
     app.use("/api/inventory", inventoryRoutes);
 
     const server = app.listen(port, "0.0.0.0", () => {
-      console.log(`🚀 Server running at http://localhost:${port}`);
+      console.log(`🚀 Server running on port ${port}`);
+      console.log(`Environment: ${process.env.NODE_ENV}`);
+      console.log(`Database URL: ${process.env.DATABASE_URL ? 'Set' : 'Not set'}`);
     });
 
     // Handle server errors
