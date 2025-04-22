@@ -1,1 +1,0 @@
-{"version":3,"file":"StockController.d.ts","sourceRoot":"","sources":["../../src/controllers/StockController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAG5C,qBAAa,eAAe;WACb,eAAe,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;WAU3C,YAAY,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAStD"}

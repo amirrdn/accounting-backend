@@ -1,1 +1,0 @@
-{"version":3,"file":"SalesInvoiceService.d.ts","sourceRoot":"","sources":["../../src/services/SalesInvoiceService.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,YAAY,EAAE,MAAM,wBAAwB,CAAC;AAmBtD,qBAAa,mBAAmB;mBACT,qBAAqB;WAqB7B,MAAM;WAIN,OAAO,CAAC,EAAE,EAAE,MAAM;WAOlB,MAAM,CAAC,IAAI,EAAE,GAAG;WA4FhB,MAAM,CAAC,EAAE,EAAE,MAAM,EAAE,IAAI,EAAE,GAAG;WAmF5B,MAAM,CAAC,EAAE,EAAE,MAAM;CAgB/B"}

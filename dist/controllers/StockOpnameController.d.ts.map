@@ -1,1 +1,0 @@
-{"version":3,"file":"StockOpnameController.d.ts","sourceRoot":"","sources":["../../src/controllers/StockOpnameController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAK5C,qBAAa,qBAAqB;WACnB,MAAM,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;WAMlC,MAAM,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAWhD"}

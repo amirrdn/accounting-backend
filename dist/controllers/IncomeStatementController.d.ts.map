@@ -1,1 +1,0 @@
-{"version":3,"file":"IncomeStatementController.d.ts","sourceRoot":"","sources":["../../src/controllers/IncomeStatementController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAG5C,qBAAa,yBAAyB;WACvB,kBAAkB,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAU5D"}

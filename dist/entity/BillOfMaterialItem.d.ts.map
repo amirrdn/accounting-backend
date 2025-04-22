@@ -1,1 +1,0 @@
-{"version":3,"file":"BillOfMaterialItem.d.ts","sourceRoot":"","sources":["../../src/entity/BillOfMaterialItem.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AACpC,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAElD,qBACa,kBAAkB;IAE7B,EAAE,EAAG,MAAM,CAAC;IAGZ,GAAG,EAAG,cAAc,CAAC;IAGrB,QAAQ,EAAG,OAAO,CAAC;IAGnB,QAAQ,EAAG,MAAM,CAAC;CACnB"}
