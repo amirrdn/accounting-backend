@@ -1,0 +1,1 @@
+{"version":3,"file":"StockAdjustmentService.d.ts","sourceRoot":"","sources":["../../src/services/StockAdjustmentService.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,eAAe,EAAE,MAAM,2BAA2B,CAAC;AAY5D,qBAAa,sBAAsB;WACpB,WAAW,CAAC,SAAS,EAAE,MAAM,EAAE,SAAS,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM;;;;;;;WAkChF,cAAc;WAKd,iBAAiB,CAAC,EAAE,EAAE,MAAM;CAW1C"}
