@@ -3,10 +3,8 @@ import { DataSource } from "typeorm";
 import * as dotenv from "dotenv";
 import * as path from "path";
 
-// Load environment variables based on NODE_ENV
-const envFile = process.env.NODE_ENV === "production" ? ".env.production" : ".env";
-console.log("Loading environment from:", envFile);
-dotenv.config({ path: path.resolve(__dirname, "..", envFile) });
+// Load environment variables
+dotenv.config({ path: path.resolve(__dirname, "..", ".env") });
 
 export const AppDataSource = new DataSource({
   type: "mysql",
@@ -17,13 +15,7 @@ export const AppDataSource = new DataSource({
   database: process.env.DB_NAME,
   synchronize: false,
   logging: process.env.NODE_ENV === "development",
-  entities: process.env.NODE_ENV === "production" 
-    ? [path.join(__dirname, "entity/**/*.js")]
-    : ["src/entity/**/*.ts"],
-  migrations: process.env.NODE_ENV === "production"
-    ? [path.join(__dirname, "migration/**/*.js")]
-    : ["src/migration/**/*.ts"],
-  subscribers: process.env.NODE_ENV === "production"
-    ? [path.join(__dirname, "subscriber/**/*.js")]
-    : ["src/subscriber/**/*.ts"],
+  entities: ["src/entity/**/*.ts"],
+  migrations: ["src/migration/**/*.ts"],
+  subscribers: ["src/subscriber/**/*.ts"],
 });
