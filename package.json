@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node src/index.ts",
+    "dev": "npm run dev:watch",
     "dev:watch": "NODE_ENV=development nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs",
     "migration:run": "npm run typeorm migration:run -- -d src/data-source.ts",
