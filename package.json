@@ -1,9 +1,6 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "engines": {
-    "node": "18.x"
-  },
   "main": "dist/index.js",
   "scripts": {
     "start": "node src/index.ts",
@@ -26,10 +23,10 @@
     "mysql2": "^3.14.0",
     "pdfkit": "^0.17.0",
     "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2",
     "typeorm": "^0.3.22",
     "typescript": "^5.8.3",
-    "winston": "^3.17.0",
-    "ts-node": "^10.9.2" 
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
