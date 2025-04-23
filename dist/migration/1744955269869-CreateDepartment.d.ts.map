@@ -1,0 +1,1 @@
+{"version":3,"file":"1744955269869-CreateDepartment.d.ts","sourceRoot":"","sources":["../../src/migration/1744955269869-CreateDepartment.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,WAAW,EAAS,MAAM,SAAS,CAAC;AAEjE,qBAAa,6BAA8B,YAAW,kBAAkB;IACvD,EAAE,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;IAgD3C,IAAI,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;CAG7D"}

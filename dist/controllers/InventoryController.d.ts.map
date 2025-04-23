@@ -1,0 +1,1 @@
+{"version":3,"file":"InventoryController.d.ts","sourceRoot":"","sources":["../../src/controllers/InventoryController.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAM5C,qBAAa,mBAAmB;WACjB,SAAS,CAAC,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAqCnD"}

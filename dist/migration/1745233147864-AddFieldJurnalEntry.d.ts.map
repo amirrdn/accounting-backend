@@ -1,0 +1,1 @@
+{"version":3,"file":"1745233147864-AddFieldJurnalEntry.d.ts","sourceRoot":"","sources":["../../src/migration/1745233147864-AddFieldJurnalEntry.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,WAAW,EAAgC,MAAM,SAAS,CAAC;AAExF,qBAAa,gCAAiC,YAAW,kBAAkB;IAE1D,EAAE,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;IAwC3C,IAAI,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,IAAI,CAAC;CAc7D"}
