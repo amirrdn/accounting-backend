@@ -52,7 +52,8 @@ app.use(cors({
     "http://localhost:5173", 
     "https://frontendaccounting.vercel.app",
     "https://accounting-react-node-production.up.railway.app",
-    "https://accounting-react-node-production.railway.app"
+    "https://accounting-react-node-production.railway.app",
+    "https://accounting-react-node-production.up.railway.app"
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
@@ -107,6 +108,7 @@ AppDataSource.initialize()
       console.log(`🚀 Server running on port ${port}`);
       console.log(`Environment: ${process.env.NODE_ENV}`);
       console.log(`Database URL: ${process.env.DATABASE_URL ? 'Set' : 'Not set'}`);
+      console.log(`Server listening on: http://0.0.0.0:${port}`);
     });
 
     // Handle server errors
