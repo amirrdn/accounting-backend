@@ -34,7 +34,7 @@ import purchasePaymentRoutes from "./routes/purchasePaymentRoutes";
 import inventoryRoutes from "./routes/inventoryRoutes";
 
 const app = express();
-const port = parseInt(process.env.PORT || "8080", 10);
+const port = process.env.PORT || 8080;
 
 // Error handling middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
@@ -103,7 +103,7 @@ AppDataSource.initialize()
     app.use("/api/purchase", purchaseReceiptRoutes);
     app.use("/api/inventory", inventoryRoutes);
 
-    const server = app.listen(port, "0.0.0.0", () => {
+    const server = app.listen(port, () => {
       console.log(`🚀 Server running on port ${port}`);
       console.log(`Environment: ${process.env.NODE_ENV}`);
       console.log(`Database URL: ${process.env.DATABASE_URL ? 'Set' : 'Not set'}`);
