@@ -35,6 +35,8 @@ import inventoryRoutes from "./routes/inventoryRoutes";
 
 const app = express();
 const port = Number(process.env.PORT) || 3000;
+console.log("ENV DB_NAME:", process.env.DB_NAME);
+console.log("ENV DB_HOST:", process.env.DB_HOST);
 
 // Error handling middleware
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
