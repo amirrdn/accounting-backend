@@ -1,1 +1,0 @@
-{"version":3,"file":"ProductStock.d.ts","sourceRoot":"","sources":["../../src/entity/ProductStock.ts"],"names":[],"mappings":"AAQE,OAAO,EAAE,OAAO,EAAE,MAAM,WAAW,CAAC;AACpC,OAAO,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAExC,qBAEa,YAAY;IAEvB,EAAE,EAAG,MAAM,CAAC;IAIZ,OAAO,EAAG,OAAO,CAAC;IAIlB,SAAS,EAAG,SAAS,CAAC;IAGtB,QAAQ,EAAG,MAAM,CAAC;CACnB"}

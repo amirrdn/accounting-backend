@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node src/index.ts",
+    "start": "ts-node src/index.ts",
     "dev": "npm run dev:watch",
     "dev:watch": "NODE_ENV=development nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts",
     "typeorm": "typeorm-ts-node-commonjs",
