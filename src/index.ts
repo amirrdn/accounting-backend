@@ -108,9 +108,6 @@ AppDataSource.initialize()
 
     const server = app.listen(port, "0.0.0.0", () => {
       console.log(`🚀 Server running on port ${port}`);
-      console.log(`Environment: ${process.env.NODE_ENV}`);
-      console.log(`Database URL: ${process.env.DATABASE_URL ? 'Set' : 'Not set'}`);
-      console.log(`Server listening on: http://0.0.0.0:${port}`);
     });
 
     // Handle server errors

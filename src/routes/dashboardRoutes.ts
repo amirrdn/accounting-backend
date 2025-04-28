@@ -11,7 +11,7 @@ const authMiddleware: RequestHandler = async (req, res, next): Promise<void> => 
 
 router.use(authMiddleware);
 
-router.get("/stock-summary", authorize("admin", "accountant"), DashboardController.stockSummary);
-router.get("/finance-summary",authorize("admin", "accountant"), DashboardController.financeSummary);
+router.get("/stock-summary", authorize("admin", "accountant", "manager", "sales", "purchase"), DashboardController.stockSummary);
+router.get("/finance-summary",authorize("admin", "accountant", "manager", "sales", "purchase"), DashboardController.financeSummary);
 
 export default router;
