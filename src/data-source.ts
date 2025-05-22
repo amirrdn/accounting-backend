@@ -17,7 +17,7 @@ if (process.env.DATABASE_URL) {
     type: "mysql",
     url: process.env.DATABASE_URL,
     ssl: {
-      rejectUnauthorized: true
+      rejectUnauthorized: false // Allow self-signed certificates
     }
   };
 } else {
