@@ -50,10 +50,7 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 app.use(cors({
   origin: [
     "http://localhost:5173", 
-    "https://frontendaccounting.vercel.app",
-    "https://accounting-react-node-production.up.railway.app",
-    "https://accounting-react-node-production.railway.app",
-    "https://accounting-react-node-production.up.railway.app"
+    "https://acounting-react.vercel.app",
   ],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
